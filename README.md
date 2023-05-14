@@ -7,7 +7,7 @@ This repository provides datasets, models and code for CoEdIT the instruction-tu
 Our code is based on Hugging Face `transformers`.
 
 ## Installation
-Comin soon. 
+Coming soon. 
 
 ## Data
 Coming soon.
