@@ -42,4 +42,13 @@ edited_text = tokenizer.decode(outputs[0], skip_special_tokens=True)[0]
 ```
 
 ## Citation
-Coming soon.
+```
+@article{raheja2023coedit,
+      title={CoEdIT: Text Editing by Task-Specific Instruction Tuning}, 
+      author={Vipul Raheja and Dhruv Kumar and Ryan Koo and Dongyeop Kang},
+      year={2023},
+      eprint={2305.09857},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
