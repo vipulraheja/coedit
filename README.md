@@ -7,9 +7,9 @@ This repository provides datasets, models and code for CoEdIT the instruction-tu
 Our code is based on Hugging Face `transformers`.
 
 ## Installation
-1. Clone the repository (via ssh or https)
+1. Clone the repository
    ```
-   git clone git@ssh.gitlab.grammarly.io:vipul.raheja/coedit.git
+   git clone https://github.com/vipulraheja/coedit.git
    ```
    
 2. Run the setup script
