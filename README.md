@@ -7,13 +7,27 @@ This repository provides datasets, models and code for CoEdIT the instruction-tu
 Our code is based on Hugging Face `transformers`.
 
 ## Installation
-Coming soon. 
+1. Clone the repository (via ssh or https)
+   ```
+   git clone git@ssh.gitlab.grammarly.io:vipul.raheja/coedit.git
+   ```
+   
+2. Run the setup script
+   ```
+   $ cd coedit
+   $ sh setup_env.sh
+   ```
 
 ## Data
 Coming soon.
 
 ## Code
-Coming soon.
+### Training
+Example script for the `CoEdIT-xl` model. 
+```
+sh train/train_coedit_xl.sh
+```
+The `CoEdIT-large` and `CoEdIT-xxl` models can be trained by makking the corresponding changes to this script. 
 
 ## Models
 
