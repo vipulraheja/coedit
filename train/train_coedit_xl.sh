@@ -15,7 +15,7 @@ deepspeed --num_gpus=4 transformers/examples/pytorch/translation/run_translation
     --overwrite_output_dir \
     --max_source_length 256 \
     --max_target_length 256 \
-    --num_train_epochs 4 \
+    --num_train_epochs 5 \
     --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 2 \
     --source_lang "src" \
