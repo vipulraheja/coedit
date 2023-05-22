@@ -52,7 +52,7 @@ model = T5ForConditionalGeneration.from_pretrained("grammarly/coedit-xl")
 input_text = 'Fix grammatical errors in this sentence: New kinds of vehicles will be invented with new technology than today.'
 input_ids = tokenizer(input_text, return_tensors="pt").input_ids
 outputs = model.generate(input_ids, max_length=256)
-edited_text = tokenizer.decode(outputs[0], skip_special_tokens=True)[0]
+edited_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 ```
 
 ## Citation
