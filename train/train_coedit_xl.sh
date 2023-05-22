@@ -3,7 +3,7 @@ export PATH=$PATH:$HOME/.local/bin
 export PROJECT_ROOT=$HOME/coedit
 deepspeed --num_gpus=4 transformers/examples/pytorch/translation/run_translation.py \
     --model_name_or_path google/flan-t5-xl \
-    --output_dir $PROJECT_ROOT/output_flant5_xl \
+    --output_dir $PROJECT_ROOT/output_coedit_xl \
     --evaluation_strategy epoch \
     --save_strategy epoch \
     --do_train \
