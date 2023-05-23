@@ -27,7 +27,7 @@ Example script for the `CoEdIT-xl` model.
 ```
 sh train/train_coedit_xl.sh
 ```
-The `CoEdIT-large` and `CoEdIT-xxl` models can be trained by makking the corresponding changes to this script. 
+The `CoEdIT-large` and `CoEdIT-xxl` models can be trained by making the corresponding changes to this script. 
 
 ## Models
 
