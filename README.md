@@ -1,7 +1,7 @@
 # CoEdIT: Text Editing by Task-Specific Instruction Tuning
 
 This repository provides datasets, models and code for CoEdIT the instruction-tuned text editing models, with the official implementation of the following paper:
-> [CoEdIT: Text Editing by Task-Specific Instruction Tuning](URL) <br>
+> [CoEdIT: Text Editing by Task-Specific Instruction Tuning](https://arxiv.org/abs/2305.09857) <br>
 > [Vipul Raheja](https://github.com/vipulraheja), [Dhruv Kumar](https://github.com/ddhruvkr), [Ryan Koo](https://github.com/kooryan), and [Dongyeop Kang](https://github.com/dykang)
 
 Our code is based on Hugging Face `transformers`.
