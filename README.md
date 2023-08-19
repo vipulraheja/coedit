@@ -19,7 +19,16 @@ Our code is based on Hugging Face `transformers`.
    ```
 
 ## Data
-Coming soon.
+Available on [Hugging Face](https://huggingface.co/datasets/grammarly/coedit).
+Example data point:
+```
+{
+  '_id': 1,
+  'task': "gec",
+  'src': "Improve the grammaticality: As the number of people grows, the need of habitable environment is unquestionably essential.",
+  'tgt': "As the number of people grows, the need for a habitable environment is unquestionably increasing."
+}
+``` 
 
 ## Code
 ### Training
