@@ -24,7 +24,6 @@ Example data point:
 ```
 {
   '_id': 1,
-  'task': "gec",
   'src': "Improve the grammaticality: As the number of people grows, the need of habitable environment is unquestionably essential.",
   'tgt': "As the number of people grows, the need for a habitable environment is unquestionably increasing."
 }
