@@ -71,6 +71,7 @@ edited_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 @article{raheja2023coedit,
       title={CoEdIT: Text Editing by Task-Specific Instruction Tuning}, 
       author={Vipul Raheja and Dhruv Kumar and Ryan Koo and Dongyeop Kang},
+      url={https://arxiv.org/abs/2305.09857},
       year={2023},
       eprint={2305.09857},
       archivePrefix={arXiv},
