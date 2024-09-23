@@ -68,13 +68,23 @@ edited_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
 ## Citation
 ```
-@article{raheja2023coedit,
-      title={CoEdIT: Text Editing by Task-Specific Instruction Tuning}, 
-      author={Vipul Raheja and Dhruv Kumar and Ryan Koo and Dongyeop Kang},
-      url={https://arxiv.org/abs/2305.09857},
-      year={2023},
-      eprint={2305.09857},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{raheja-etal-2023-coedit,
+    title = "{C}o{E}d{IT}: Text Editing by Task-Specific Instruction Tuning",
+    author = "Raheja, Vipul  and
+      Kumar, Dhruv  and
+      Koo, Ryan  and
+      Kang, Dongyeop",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.350",
+    doi = "10.18653/v1/2023.findings-emnlp.350",
+    pages = "5274--5291",
+    abstract = "We introduce CoEdIT, a state-of-the-art text editing system for writing assistance. CoEdIT takes instructions from the user specifying the attributes of the desired text, such as {``}Make the sentence simpler{''} or {``}Write it in a more neutral style,{''} and outputs the edited text. We present a large language model fine-tuned on a diverse collection of task-specific instructions for text editing (a total of 82K instructions). Our model (1) achieves state-of-the-art performance on various text editing benchmarks, (2) is competitive with publicly available largest-sized LLMs trained on instructions while being {\textasciitilde}60x smaller, (3) is capable of generalizing to unseen edit instructions, and (4) exhibits abilities to generalize to composite instructions containing different combinations of edit actions. Through extensive qualitative and quantitative analysis, we show that writers prefer the edits suggested by CoEdIT relative to other state-of-the-art text editing models. Our code, data, and models are publicly available at https://github.com/vipulraheja/coedit.",
 }
 ```
